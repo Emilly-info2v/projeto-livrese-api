@@ -1,0 +1,16 @@
+.in{
+    margin: 5px;
+    background: #002D70;;
+    padding: 3px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #002D70;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12pt;
+}
+.in:hover {
+    border: 1px solid #002D70;
+    background-color: #1c2237;
+    color: white;
+}

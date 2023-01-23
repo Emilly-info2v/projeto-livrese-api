@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+}
+.sidebar{
+    background: #D1D6DE;
+    display: block;
+    width: 100%;
+    height: 100rem;
+}
+
+.sidebar ul {
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    line-height: 5rem;
+}
+
+.sidebar ul a {
+    border-width: 2rem;
+    border-bottom: 0.5px solid #313A87;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul a.active {
+    background-color: #313A87;
+    color: white;
+}
+.baby1{
+    width: 60px;
+  }

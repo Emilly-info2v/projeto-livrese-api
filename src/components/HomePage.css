@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,200;1,300;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    list-style: none;
+    text-decoration: none;
+}
+
+/* navbar */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: black;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background: #F2F3F5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  z-index: 20;
+}
+.nav-items{
+    padding: 16px;
+    border: 1px solid #F2F3F5;
+}
+.nav-items:hover{
+  border-bottom: 2px solid #f00946;
+}
+nav{
+  padding: 0px 6rem 0px 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 400;
+}
+.navigation{
+    list-style: none;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.baby{
+  width: 70px;
+}
+
+/* estilos da section home */
+
+#section-home{
+    width: 100%;
+    height: 100vh;
+    background: royalblue;
+}
+.container-home{
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.container-text{
+    margin-top: 132px;
+    position: relative;
+    width: 80rem;
+    margin-left: 312px;
+    height: 100%;
+    z-index: 10;
+}
+.container-imgs{
+    width: 900px;
+    height: 100%;
+    display: flex;
+
+}
+.img-monica,
+.img-ingles,
+.img-harry{
+    width: 10rem;
+    height: 14rem;
+    z-index: 10;
+}
+.img-monica{
+    margin-top: 132px;
+}
+.img-ingles{
+    margin-top: 250px;
+}
+.img-harry{
+    margin-top: 320px;
+}
+.img-library{
+    position: absolute;
+    width: 120rem;
+    height: 50rem;
+    z-index: 1;
+}
+.container-onda{
+    width: 120rem;
+    height: 31rem;
+}
+.img-onda{
+    position: relative;
+    width: 100%;
+    height: 35rem;
+    top: -1rem;
+    z-index: 16;
+}
+.onda{
+  position: relative;
+  z-index: 40;
+  top: -30rem;
+  width: 200rem;
+  height: 23rem;
+  /* background: red; */
+  display: flex;
+}
+.left-onda{
+  width: 50vw;
+  height: 23rem;
+  /* background: green; */
+  display: flex;
+  justify-content: center;
+}
+.right-onda{
+  width: 50vw;
+  height: 23rem;
+  /* background: lightblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img-left-onda{
+  width: 27rem;
+  height: 19rem;
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30rem;
+}
+.img-left-onda img{
+  width: 25rem;
+}
+.img-right-onda,
+.img-right-onda1{
+  width: 350px;
+  height: 214px;
+  border-radius: 20px;
+  margin-left: 2rem;
+}
+.img-right-onda{
+  background: #254A7F;
+  padding: 2px 2px 10px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 13rem;
+}
+.img-right-onda1{
+  background: #254A7F;
+  padding: 2px 2px 10px 2px;
+  display: flex;
+  height: 12rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+.img-right-onda h3{
+  font-family: 'Averia Libre';
+  color: white;
+  margin-top: 5px;
+}
+.img-right-onda p{
+  width: 20rem;
+  color: white;
+  font-size: 9pt;
+  margin-left: 1rem;
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+
+}
+.img-right-onda1 h3{
+  font-family: 'Averia Libre';
+  color: white;
+}
+.img-right-onda1 p{
+  width: 20rem;
+  color: white;
+  font-size: 9pt;
+  margin: 0;
+  margin-left: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+.text-h1{
+    display: flex;
+    width: 60%;
+    font-size: 48px;
+    font-family: 'Averia Libre';
+    font-weight: 100;
+    color: white;
+}
+.text-p{
+    color: #c1c1c1;
+    width: 290px;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-style: normal;
+    opacity: 1;
+}
+.ul-btn{
+    margin-top: 20px;
+    position: absolute;
+    z-index: 11;
+    padding: 0;
+}
+/* @media screen and (max-width: ) */
+/* estilos da section destaques */
+#section-destaques{
+    padding-top: 60px;
+}
+.title-destaque{
+    font-family: 'Averia Libre';
+    font-size: 40pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #FDB346;
+}
+
+.container-destaques{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .box-3{
+    margin-top: 10rem;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .box-3 p{
+    margin-top: 20px;
+    width: 607px;
+    text-align: center;
+  }
+  div .linha{
+    width: 70%;
+    height: 1px;
+    background: grey;
+    margin-top: 30px;
+    margin-left: 300px; 
+  }
+  .item-1{
+    margin-left: 30px;
+    width: 232px;
+    height: 352px;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.bolinha1,
+.bolinha2{
+  margin-top: 1rem;
+  cursor: pointer;
+}
+  div .linha-vertical{
+    width: 1px;
+    height: 155px;
+    display: flex;
+    background: grey;
+    margin-top: 60px;
+    margin-left: 48px;
+    margin-right: 39px;
+  }
+  .item-2 h2{
+    width: 90%;
+    height: 40px;
+    color: black;
+    margin-top: 19px;
+    font-family: 'Averia Libre';
+  }
+  .item-2 p{
+    margin-top: 40px;
+    margin-bottom: 19px;
+    width: 550px;
+    font-size: 13px;
+    display: flex;
+  }
+  .box-4{
+    margin-left: 220px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .btn-reserve{
+      background: #002D70;
+      padding: 8px 16px;
+      border-radius: 4px;
+      outline: none;
+      border: 1px solid #002D70;
+      color: #fff;
+      cursor: pointer;
+  }
+  .disponivel{
+      width: 80px;
+      height: 80px;
+      background: #002D70;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 10px;
+      border-radius: 4px;
+      margin-top: 174px;
+      margin-left: 64px;
+  
+  }
+  .disponivel h1{
+    font-family: 'Averia Libre';
+    color: white;
+  }
+  .disponivel h4{
+    font-size: 12px;
+    color: white;
+  }
+
+  /* estilos da section visualizações */
+
+  #section-aval{
+    width: 100%;
+    height: 80vh;
+    background: wheat;
+  }
+  
+  .img-aval{
+    position: absolute;
+    margin-top: 3rem;
+    width: 100%;
+    height: 80vh;
+    z-index: 1;
+  }
+  .second-container{
+    position: relative;
+    gap: 15rem;
+    width: 90%;
+    height: 60vh;
+    /* background: red;  */
+    display: flex;
+    margin: auto;
+    z-index: 2;
+  }
+
+  .left-avaliacao{
+    width: 40%;
+    height: 40rem;
+    /* background: yellow; */
+    margin: auto 3rem;
+    position: relative;
+    bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .left-avaliacao h1{
+    position: relative;
+    top: 12rem;
+    left: 5rem;
+    font-family: 'Averia Libre';
+
+  }
+  .commits{
+    width: 50%;
+    height: 80vh;
+    /* background: green; */
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box-commits{
+    width: 90%;
+    height: 100rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+  }
+  .box-commit1{
+    width: 40rem;
+    height: 15rem;
+    display: flex;
+    gap: 1rem;
+    background: white;
+    border-radius: 13px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .avaliacao-user{
+    margin-top: 0.9rem;
+  }
+  .box-commit1 p{
+      width: 30rem;
+      font-size: 12pt;
+  }
+  .img-user{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 30px;
+    background: grey;
+  }
+  .icons-star{
+    margin-left: 24rem;
+    color: #F58037;
+  }
+  .img-books{
+    width: 50%;
+    height: 80%;
+    margin-top: 28rem;
+    /* background: grey; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+  }
+  .img-books img{
+    width: 17rem;
+  }
+  .img-books .book1{
+    position: absolute;
+    z-index: 3;
+    left: 12rem;
+  }
+  .img-books .book2{
+    position: absolute;
+    z-index: 2;
+    left: 8rem;
+    top: -10rem;
+  }
+  .img-books .book3{
+    position: absolute;
+    left: 3rem;
+    z-index: 1;
+  }
+  /* estilos da section parcerias */
+
+.container-parcerias{
+    width: 100%;
+    height: 80vh;
+    background: #FED289;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box-1{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.box-1 h1{
+  font-family: 'Averia Libre';
+  font-size: 40pt;
+}
+.box-2{
+  width: 100%;
+  height: 80%;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.box-item{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: chocolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  /* estilos da section footer */
+/* #footer{
+  width: 100vw;
+  height: 20rem;
+  background: #002D70;
+
+} */
+.boxx{
+  width: 100vw;
+  height: 20rem;
+  background: #002D70;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.boxx-item{
+  display: flex;
+  gap: 1rem;
+}
+
+.iten-3-f,
+.iten-3-i,
+.iten-3-t{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.info{
+  color: white;
+}

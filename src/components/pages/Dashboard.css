@@ -1,0 +1,240 @@
+.fundo-disp{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    padding: 6rem;
+    flex-direction: column;
+}
+.input-pesquisa{
+    width: 80rem;
+    height: 2rem;
+    border-radius: 6px;
+    border: none;
+    padding-left: 6px;
+    background: #F2F3F5;
+}
+.btn-buscar{
+    margin-left: 1rem;
+    width: 8rem;
+    height: 2rem;
+    background: #002D70;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #002D70;
+}
+.categ{
+    margin-top: 2rem;
+    width: 80rem;
+    /* background: green; */
+}
+.categ-1{
+    width: 5rem;
+    height: 7rem;
+    background: grey;
+    gap: 2rem;
+}
+.list-categ{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.title-disp{
+    margin-top: 3rem;
+}
+.imgs-disp{
+    display: flex;
+    justify-content: space-around;
+    width: 80rem;
+    height: 20rem;
+    margin-top: 2rem;
+    /* background: green; */
+}
+.list-disp img{
+    width:11rem;
+    height: 15rem;
+    /* background: red; */
+}
+.disp-first{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 12rem;
+    height: 17rem;
+}
+.disp-first p{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.9rem;
+}
+.disp-first button{
+    background: #002D70;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+ 
+    width: 6rem;
+}
+
+.disp-second{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 12rem;
+    height: 17rem;
+}
+.disp-second p{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.disp-second button{
+    background: #002D70;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    width: 6rem;
+}
+
+.disp-tercy{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 12rem;
+    height: 17rem;
+}
+.disp-tercy p{
+    text-align: center;
+    width: 10rem;
+    margin-bottom: 1rem;
+}
+.disp-tercy button{
+    background: #002D70;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    width: 6rem;
+}
+
+.disp-quart{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 12rem;
+    height: 17rem;
+}
+.disp-quart p{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.9rem;
+}
+.disp-quart button{
+    background: #002D70;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    width: 6rem;
+}
+    .chat{
+        width: 90rem;
+        height: 70rem;
+        margin-top: 3rem;
+        background-color: lightblue;
+    }
+    .informacao-livro1{
+        width: 60rem;
+        height: 30rem;
+        background: lightcoral;
+        display: flex;
+        margin-top: 3rem;
+        gap: 4rem;
+    }
+    .informacao-livro1 img{
+        width: 11rem;
+        margin-left: 5rem;
+        margin-top: 4rem;
+    }
+    .text-info-livro1 h2{
+        margin-top: 3rem;
+        width: 20rem;
+        font-family: 'Averia Libre';
+    }
+    .text-info-livro1 p{
+        width: 28rem;
+    }
+    .btn-reserve1{
+        background: #002D70;
+        padding: 5px 16px;
+        margin-left: 20rem;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+    }
+    .livro-arrow{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .setas{
+        margin-top: 1rem;
+        margin-left: 5rem;
+        display: flex;
+        gap: 1rem;
+    }
+    .icons2{
+        margin-top: 1rem;
+        margin-left: 5rem;
+        display: flex;
+        gap: 2rem;
+        
+    }
+    .icon-filho{
+        background: orange;
+        padding: 5px;
+        border-radius: 1rem;
+    }
+    .mensage{
+        margin-left: 8rem;
+        width: 50rem;
+        height: 40rem;
+        background: lightpink;
+    }
+
+    /* chat */
+.mensage{
+    width: 30rem;
+    height: 30rem;
+    background: lightpink;
+}
+.historic{
+    width: 90rem;
+    height: 50rem;
+    margin-top: 2rem;
+    background: rgb(33, 196, 187);
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+}
+.photo-his{
+    width: 11rem;
+    height: 14rem;
+    background: blue;
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.items-photo-hist{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+}
+.sidebar{
+    background: #D1D6DE;
+    display: block;
+    width: 224px;
+    height: 100vh;
+}
+.u1-side a{
+    text-decoration: none;
+
+}
+.u1-side{
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    line-height: 5rem;
+}
+.side-li{
+    border-width: 2rem;
+    border-bottom: 1px solid blue;
+}

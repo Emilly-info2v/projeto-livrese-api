@@ -1,0 +1,132 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    color: azure;
+    background-color: black;
+}
+.img-logo img{
+    width: 400px;
+    height: 495px;
+}
+.img-logo{
+    background-color: azure;
+    border-radius: 10px;
+}
+
+.login-right h2{
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.loginInputEmail{
+    display: flex;
+    align-items: center;
+    color: gray;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+    background: #1a1a1d;
+    border-radius: 5px;
+}
+.loginInputEmail svg{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.loginInputEmail input{
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: azure;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.loginInputPassword{
+    display: flex;
+    align-items: center;
+    color: gray;
+    padding: 3px;
+    margin-top: 5px;
+    width: 98%;
+    height: 50px;
+    background: #1a1a1d;
+    border-radius: 5px;
+}
+.loginInputPassword svg{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.loginInputPassword input{
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: azure;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.login-right{
+    background: #29292e;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+}
+.login-right button{
+    background-color: #202024;
+    color: azure;
+    font-weight: 800;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+    width: 98%;
+    border: none;
+    outline-width: 0;
+}
+.login-right button:hover{
+    background: #171719;
+    color: azure;
+    cursor: pointer;
+}
+.login-eye{
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+.txt-1{
+    font-size: 14px;
+    color: #adadad;
+    line-height: 1.5;
+    padding-right: 5px;
+    text-decoration: none;
+}
+.txt-2{
+    font-size: 14px;
+    color: #6a7dfe;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.title-login{
+    color: #171719;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
