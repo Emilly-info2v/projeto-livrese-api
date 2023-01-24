@@ -52,7 +52,7 @@ function Login() {
                 />
               </div>
               <button className='btn-cadastre' type='Submit' onClick={handleSubmit}>Pronto</button>
-              <span>Não possui cadastro? <Link to='/cadastro'>Entre com seu login</Link></span>
+              <span>Não possui cadastro? <Link to='/cadastro'>Faça o seu cadastro</Link></span>
             </div>
           </div>
 

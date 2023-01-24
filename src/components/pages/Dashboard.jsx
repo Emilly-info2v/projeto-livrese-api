@@ -122,7 +122,6 @@ function Dashboard() {
                   <button className='btn-reserve1'>Reservar</button>
               </div>
               <div className='mensage'>
-                <img src={Chat}/>
               </div>
             </div>
           </div>
