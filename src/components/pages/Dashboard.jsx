@@ -4,14 +4,17 @@ import './Dashboard.css'
 import Logo1 from './../imgs/logo-livrese.jpeg'
 import Sidebar from '../Sidebar'
 import {HiUserCircle} from 'react-icons/hi'
+import {BsChatFill} from 'react-icons/bs'
 import Harry from './../imgs/harry.png' 
 import Monica from './../imgs/monica.png' 
 import Ingles from './../imgs/ingles.png' 
 import Colorido from './../imgs/livro-meio.png' 
 import { ImExit } from "react-icons/im";
 import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from "react-icons/bs";
-import { FaPhoneAlt } from "react-icons/fa";
+import Diario from './../imgs/diario-banana.png'
+import Aurelio from './../imgs/aurelio.png'
 import Destaque from './../imgs/photoDest.png' 
+import Chat from './../imgs/chat.png' 
 import auth from '../../services/auth';
 import { useNavigate } from "react-router-dom";
 
@@ -41,18 +44,20 @@ function Dashboard() {
               <div className='categ'>
                 <div className='title-categ'>Categoria</div>
                 <ul className='list-categ'>
-                  <a href="#"><il className="nav-itens"><div className='categ-1'>caixa 1</div></il></a>
-                  <a href="#"><il className="nav-itens"><div className='categ-1'>caixa 1</div></il></a>
-                  <a href="#"><il className="nav-itens"><div className='categ-1'>caixa 1</div></il></a>
-                  <a href="#"><il className="nav-itens"><div className='categ-1'>caixa 1</div></il></a>
-                  <a href="#"><il className="nav-itens"><div className='categ-1'>caixa 1</div></il></a>
-                  <a href="#"><il className="nav-itens"><div className='categ-1'>caixa 1</div></il></a>
-                  <a href="#"><il className="nav-itens"><div className='categ-1'>caixa 1</div></il></a>
-                  <a href="#"><il className="nav-itens"><div className='categ-1'>caixa 1</div></il></a>
-                  <a href="#"><il className="nav-itens"><div className='categ-1'>caixa 1</div></il></a>
-                  <a href="#"><il className="nav-itens"><div className='categ-1'>caixa 1</div></il></a>
-                  <a href="#"><il className="nav-itens"><div className='categ-1'>caixa 1</div></il></a>
-                  <a href="#"><il className="nav-itens"><div className='categ-1'>caixa 1</div></il></a>
+                <BsFillArrowLeftCircleFill color='grey' fontSize='2rem'/>
+                  <il className="nav-itens"><div className='categ-1'>Livro didático</div></il>
+                  <il className="nav-itens"><div className='categ-1'>Dicionário</div></il>
+                  <il className="nav-itens"><div className='categ-1'>Ação</div></il>
+                  <il className="nav-itens"><div className='categ-1'>Infantil</div></il>
+                  <il className="nav-itens"><div className='categ-1'>Romance</div></il>
+                  <il className="nav-itens"><div className='categ-1'>Quadrinhos</div></il>
+                  <il className="nav-itens"><div className='categ-1'>Ficção científica</div></il>
+                  <il className="nav-itens"><div className='categ-1'>Terror</div></il>
+                  <il className="nav-itens"><div className='categ-1'>Poesia</div></il>
+                  <il className="nav-itens"><div className='categ-1'>Contos</div></il>
+                  <il className="nav-itens"><div className='categ-1'>Suspense</div></il>
+                  <il className="nav-itens"><div className='categ-1'>Crônicas</div></il>
+                  <BsFillArrowRightCircleFill color='#002D70' fontSize='2rem'/>
                 </ul>
               </div>
               <div className='book-disp'>
@@ -104,7 +109,7 @@ function Dashboard() {
 
                 </div>                
                   <div className='icons2'>
-                    <FaPhoneAlt className='icon-filho' color='grey' fontSize='2rem'/>
+                    <BsChatFill className='icon-filho' color='#002D70' fontSize='2rem'/>
                   </div>
               </div>
               <div className='text-info-livro1'>
@@ -122,11 +127,31 @@ function Dashboard() {
             </div>
           </div>
           <div className='historic'>
-            <div className=''>Histórico</div>
+            <div><h1>Histórico</h1></div>
             <div className='items-photo-hist'>
-                  <div className='photo-his'></div>       
-                  <div className='photo-his'></div>       
-                  <div className='photo-his'></div>   
+            <BsFillArrowLeftCircleFill color='#002D70' fontSize='2rem'/>
+                  <div className='photo-his'>
+                    <img src={Diario} alt=''/>
+                      <div className=''>
+                        <p>Diário de um Banana: Dias de C...</p>
+                        <button>Reservar</button>
+                      </div>
+                  </div>       
+                  <div className='photo-his'>
+                    <img src={Aurelio} alt=''/>
+                    <div className=''>
+                        <p>Dicionário Aurélio</p>
+                        <button>Reservar</button>
+                      </div>
+                  </div>       
+                  <div className='photo-his'>
+                    <img src={Ingles} alt=''/>
+                      <div className=''>
+                        <p>Dicionário escolar inglês</p>
+                        <button>Reservar</button>
+                      </div>
+                  </div> 
+            <BsFillArrowRightCircleFill color='#002D70' fontSize='2rem'/>  
             </div>     
           </div>
         </div>

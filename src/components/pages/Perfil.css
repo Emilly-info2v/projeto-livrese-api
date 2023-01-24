@@ -19,18 +19,32 @@ text-decoration: none;
     justify-content: center;
 }
 .perfil{
-    width: 60rem;
+    width: 62rem;
     height: 80%;
-    background: lightcoral;
+    margin-left: 60rem;
+    background: #F58037;
     border-radius: 18px;
     display: flex;
     justify-content: center;
 }
 .perfil img{
-    width: 60.5rem;
+    width: 55rem;
     height: 30rem;
     position: fixed;
     z-index: 1;
+}
+.user-perfil{
+    position: relative;
+    z-index: 3;
+    bottom: 10rem;
+    right: 50rem;
+}
+.user-perfil2 img{
+    width: 19rem;
+    position: relative;
+    z-index: 4;
+    bottom: -12rem;
+    right: 93rem;
 }
 .topo{
     width: 54rem;
@@ -61,7 +75,6 @@ text-decoration: none;
     margin-top: 0.3rem;
     width: 28px;
     height: 28px;
-
 }
 .topo-2{
     display: flex;

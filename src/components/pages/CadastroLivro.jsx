@@ -53,10 +53,17 @@ function CadastroLivro() {
                   <label className='labels'>Categoria</label>
                   <select onChange={(e) => setCategoria(e.target.value)}>
                     <option value="Categoria">Categoria</option>
-                    <option value="biografia">biografia</option>
-                    <option value="contos">contos</option>
-                    <option value="ficção cientifica">ficção cientifica</option>
-                    <option value="romance">romance</option>
+                    <option value="Livro didático">Livro didático</option>
+                    <option value="Ação">Ação</option>
+                    <option value="Infantil">Infantil</option>
+                    <option value="Quadrinhos">Quadrinhos</option>
+                    <option value="Terror">Terror</option>
+                    <option value="Poesia">Poesia</option>
+                    <option value="Contos">Contos</option>
+                    <option value="Suspense">Suspense</option>
+                    <option value="Dicionário">Dicionário</option>
+                    <option value="Ficção cientifica">Ficção científica</option>
+                    <option value="Romance">Romance</option>
                   </select>
                 </div>
 
